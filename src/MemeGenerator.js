@@ -15,7 +15,6 @@ class MemeGenerator extends React.Component {
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
-    this.setRandomImg = this.setRandomImg.bind(this);
   }
 
   // Fetches and save the meme data via imgflip API
@@ -35,13 +34,14 @@ class MemeGenerator extends React.Component {
   
   handleSubmit(event) {
     event.preventDefault();
-    this.setRandomImg();
+    const { url, alt } = this.getRandomMeme();
+    this.setState({ imgURL: url, imgAlt: alt });
   }
 
-  setRandomImg() {
+  getRandomMeme() {
     const randomIndex = Math.floor(Math.random() * (this.state.allMemeImgs.length + 1));
-    const randomImg = this.state.allMemeImgs[randomIndex];
-    this.setState({ imgURL: randomImg.url, imgAlt: randomImg.name });
+    const randomMeme = this.state.allMemeImgs[randomIndex];
+    return randomMeme;
   }
 
   render() {

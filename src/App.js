@@ -6,7 +6,9 @@ function App() {
   return(
     <div>
       <Header />
-      <h1>Hello React!</h1>
+      <h1>Generate Memes</h1>
+      <p>Enter top and bottom text for your meme and click the button.</p>
+      <p>Your meme will be ready right away!</p>
       <MemeGenerator />
     </div>
   );

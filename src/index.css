@@ -38,10 +38,11 @@ header > p {
   position: relative;
   width: 90%;
   margin: auto;
+  text-align: center;
 }
 
 .meme > img {
-  width: 100%;
+  width: 50%;
 }
 
 .meme > h2 {
@@ -86,7 +87,11 @@ header > p {
 
 .meme-form > input {
   width: 45%;
-  height: 40px;
+  height: 3rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #888;
+  font-size: 24px;
 }
 
 .meme-form > button {

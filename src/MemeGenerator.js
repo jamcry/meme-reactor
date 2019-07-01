@@ -1,4 +1,5 @@
 import React from 'react';
+import memePlaceholder from './meme_placeholder.jpg'
 
 class MemeGenerator extends React.Component {
   constructor() {
@@ -35,8 +36,6 @@ class MemeGenerator extends React.Component {
   handleSubmit(event) {
     event.preventDefault();
     this.setRandomImg();
-    const { topText, bottomText } = this.state;
-    alert(` Submitted: Top Text: ${topText}, Bottom Text: ${bottomText}`);
   }
 
   setRandomImg() {
@@ -70,7 +69,7 @@ class MemeGenerator extends React.Component {
         </form>
 
         <div className="meme">
-          <img src={this.state.imgURL} alt={this.state.imgAlt} />
+          <img src={this.state.imgURL || memePlaceholder} alt={this.state.imgAlt} />
           <h2 className="top">{ this.state.topText }</h2>
           <h2 className="bottom">{ this.state.bottomText }</h2>
         </div>

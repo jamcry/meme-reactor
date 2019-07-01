@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/meme-reactor/static/css/main.2e215203.chunk.css",
+    "main.js": "/meme-reactor/static/js/main.83bf6f33.chunk.js",
+    "main.js.map": "/meme-reactor/static/js/main.83bf6f33.chunk.js.map",
+    "runtime~main.js": "/meme-reactor/static/js/runtime~main.039b1c05.js",
+    "runtime~main.js.map": "/meme-reactor/static/js/runtime~main.039b1c05.js.map",
+    "static/js/2.59e6fd4c.chunk.js": "/meme-reactor/static/js/2.59e6fd4c.chunk.js",
+    "static/js/2.59e6fd4c.chunk.js.map": "/meme-reactor/static/js/2.59e6fd4c.chunk.js.map",
+    "index.html": "/meme-reactor/index.html",
+    "precache-manifest.31b0e6a3dfb87f912a4f180a2caa739c.js": "/meme-reactor/precache-manifest.31b0e6a3dfb87f912a4f180a2caa739c.js",
+    "service-worker.js": "/meme-reactor/service-worker.js",
+    "static/css/main.2e215203.chunk.css.map": "/meme-reactor/static/css/main.2e215203.chunk.css.map",
+    "static/media/meme_placeholder.jpg": "/meme-reactor/static/media/meme_placeholder.e8062550.jpg"
+  }
+}
